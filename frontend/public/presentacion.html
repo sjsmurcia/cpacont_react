@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="verification-code" content="LEARN-CAP-D1D54FCE" />
+    <title>CPA Contable | Presentación del proyecto</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: #173a33;
+        background: #edf2ee;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .slide {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10vh max(8vw, 24px);
+        border-bottom: 1px solid #d6e1d9;
+        background: #f9fbf8;
+      }
+
+      .slide:nth-of-type(even) {
+        background: #e8f1eb;
+      }
+
+      .eyebrow {
+        color: #398272;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2 {
+        max-width: 900px;
+        margin: 0 0 1rem;
+        font-size: clamp(2.5rem, 7vw, 5rem);
+        letter-spacing: -0.05em;
+        line-height: 1.08;
+      }
+
+      p,
+      li {
+        max-width: 760px;
+        color: #526761;
+        font-size: clamp(1.05rem, 2vw, 1.4rem);
+        line-height: 1.7;
+      }
+
+      ul {
+        padding-left: 1.3em;
+      }
+
+      .verification-code {
+        display: inline-block;
+        width: fit-content;
+        margin-top: 1rem;
+        padding: 1rem 1.3rem;
+        border: 1px solid #c8dcd0;
+        border-radius: 0.6rem;
+        background: #fff;
+        color: #164b42;
+        font-family: Consolas, monospace;
+        font-size: clamp(1.1rem, 3vw, 1.8rem);
+        font-weight: 700;
+      }
+
+      .caution {
+        font-size: 0.95rem;
+      }
+
+      @media print {
+        @page {
+          size: 16in 9in;
+          margin: 0;
+        }
+
+        .slide {
+          min-height: 9in;
+          break-after: page;
+          padding: 1.1in;
+          print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="slide">
+      <p class="eyebrow">CPA · San Pedro Sula, Honduras</p>
+      <h1>CPA Contable</h1>
+      <p>
+        Una iniciativa para apoyar la preparación de información contable y
+        fiscal y reducir tareas manuales para pequeñas empresas y pymes.
+      </p>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">El reto</p>
+      <h2>Preparar los cierres requiere mucho trabajo manual</h2>
+      <p>
+        Parte de la información de clientes se registra hoy en hojas de cálculo.
+        Ese proceso puede consumir tiempo del equipo y dificultar la preparación
+        ordenada de información para cierres y reportes.
+      </p>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">La propuesta</p>
+      <h2>Apoyar al equipo sin reemplazar sus sistemas actuales</h2>
+      <ul>
+        <li>Explorar la captura asistida de datos de facturas de compra y venta.</li>
+        <li>Organizar la información para apoyar los cierres.</li>
+        <li>Mantener la revisión y aprobación del equipo contable.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Alcance responsable</p>
+      <h2>Privacidad primero; automatización con revisión humana</h2>
+      <p>
+        Este prototipo todavía no procesa documentos ni genera declaraciones
+        fiscales. No se deben cargar datos reales de clientes. Antes de trabajar
+        con documentos, se definirán controles de acceso, almacenamiento,
+        retención, cifrado y auditoría con el equipo de CPA.
+      </p>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Verificación de propiedad del proyecto</p>
+      <h2>Código de verificación</h2>
+      <p>Presente también en el README y en el sitio del proyecto.</p>
+      <code class="verification-code">LEARN-CAP-D1D54FCE</code>
+      <p class="caution">
+        Prototipo técnico en desarrollo. No usar con información real ni para
+        tomar decisiones contables o fiscales.
+      </p>
+    </section>
+  </body>
+</html>

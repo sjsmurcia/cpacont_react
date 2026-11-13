@@ -49,3 +49,5 @@ El proyecto está en fase inicial. Las contribuciones deben incluir pruebas para
 ## Verificación del proyecto
 
 Código de verificación del propietario: **LEARN-CAP-D1D54FCE**
+
+El mismo código está incluido en el sitio como meta tag y en [`/verificacion.txt`](frontend/public/verificacion.txt). La [presentación del proyecto](frontend/public/presentacion.html) también lo muestra en su diapositiva final. Para compartir el sitio y esos archivos, publicá el frontend con Vite; se copian a la raíz del sitio durante la compilación.
